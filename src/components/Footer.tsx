@@ -53,7 +53,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">İletişim</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>Adres: İstanbul, Türkiye</li>
+              <li>Adres: Boğaziçi, Tuzla Ovası 1.Sk No:60, 48200 Milas/Muğla</li>
               <li>Telefon: +90 544 403 02 15</li>
               <li>E-posta: info@polgatasarim.com</li>
             </ul>

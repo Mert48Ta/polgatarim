@@ -60,7 +60,7 @@ export default function Contact() {
             className="bg-white p-8 rounded-lg shadow-lg"
           >
             <h3 className="text-2xl font-semibold mb-6">Bize Ulaşın</h3>
-            <form className="space-y-6">
+            <form action="https://formspree.io/f/xayrdyrw" method="POST" className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-gray-700 mb-2">
                   Adınız Soyadınız
@@ -68,6 +68,7 @@ export default function Contact() {
                 <input
                   type="text"
                   id="name"
+                  name="name"
                   className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent"
                 />
               </div>
@@ -78,6 +79,7 @@ export default function Contact() {
                 <input
                   type="email"
                   id="email"
+                  name="email"
                   className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent"
                 />
               </div>
@@ -87,6 +89,7 @@ export default function Contact() {
                 </label>
                 <textarea
                   id="message"
+                  name="message"
                   rows={4}
                   className="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent"
                 ></textarea>

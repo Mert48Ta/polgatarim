@@ -1,21 +1,26 @@
 {
   "name": "Polga Tarım",
-  "short_name": "Polga Tarım",
-  "description": "Profesyonel peyzaj mimarlığı ve bahçe tasarımı hizmetleri",
+  "short_name": "Polga",
+  "description": "Modern peyzaj çözümleri ve tarım ürünleri",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "theme_color": "#4CAF50",
   "icons": [
     {
-      "src": "/icon-192x192.png",
-      "sizes": "192x192",
+      "src": "/PT_logo_rmv.png",
+      "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     },
     {
-      "src": "/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "/PT_logo_rmv.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/PT_logo_rmv.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ]
 } 

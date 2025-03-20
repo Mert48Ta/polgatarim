@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
 import { FiMenu, FiX } from 'react-icons/fi'
+import { useRouter } from 'next/navigation'
 
 const menuItems = [
   { title: 'Ana Sayfa', href: '/' },
@@ -17,6 +18,7 @@ const menuItems = [
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+  const router = useRouter()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,13 +28,27 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const handleClick = (href: string) => {
+  const handleClick = (href: string, e: React.MouseEvent) => {
+    e.preventDefault()
     if (href.startsWith('/#')) {
-      const elementId = href.substring(2)
-      const element = document.getElementById(elementId)
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' })
+      // Eğer ana sayfada değilsek, önce ana sayfaya gidelim
+      if (window.location.pathname !== '/') {
+        router.push('/')
+        // Ana sayfaya yönlendikten sonra scroll yapalım
+        setTimeout(() => {
+          const elementId = href.substring(2)
+          const element = document.getElementById(elementId)
+          element?.scrollIntoView({ behavior: 'smooth' })
+        }, 100)
+      } else {
+        // Ana sayfadaysak direkt scroll yapalım
+        const elementId = href.substring(2)
+        const element = document.getElementById(elementId)
+        element?.scrollIntoView({ behavior: 'smooth' })
       }
+    } else {
+      // Normal sayfa yönlendirmesi
+      router.push(href)
     }
     setIsOpen(false)
   }
@@ -55,19 +71,14 @@ export default function Navbar() {
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
             {menuItems.map((item) => (
-              <Link
+              <a
                 key={item.title}
                 href={item.href}
-                onClick={(e) => {
-                  if (item.href.startsWith('/#')) {
-                    e.preventDefault()
-                    handleClick(item.href)
-                  }
-                }}
+                onClick={(e) => handleClick(item.href, e)}
                 className="text-gray-800 hover:text-[var(--primary)] transition-colors"
               >
                 {item.title}
-              </Link>
+              </a>
             ))}
           </div>
 
@@ -96,19 +107,14 @@ export default function Navbar() {
           >
             <div className="container mx-auto px-4 py-4">
               {menuItems.map((item) => (
-                <Link
+                <a
                   key={item.title}
                   href={item.href}
-                  onClick={(e) => {
-                    if (item.href.startsWith('/#')) {
-                      e.preventDefault()
-                      handleClick(item.href)
-                    }
-                  }}
+                  onClick={(e) => handleClick(item.href, e)}
                   className="block py-2 text-gray-800 hover:text-[var(--primary)] transition-colors"
                 >
                   {item.title}
-                </Link>
+                </a>
               ))}
             </div>
           </motion.div>

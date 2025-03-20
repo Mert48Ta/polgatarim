@@ -7,8 +7,8 @@ import 'slick-carousel/slick/slick-theme.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Polga Tarım - Peyzaj ve Bahçe Tasarımı',
-  description: 'Profesyonel peyzaj mimarlığı ve bahçe tasarımı hizmetleri. Villa bahçeleri, site peyzajı ve park tasarımları.',
+  title: 'Polga Tarım',
+  description: 'Modern peyzaj çözümleri ve tarım ürünleri',
   keywords: 'peyzaj, bahçe tasarımı, villa bahçesi, site peyzajı, park tasarımı',
   authors: [{ name: 'Polga Tarım' }],
   openGraph: {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   themeColor: '#ffffff',
   manifest: '/manifest.json',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/PT_logo_rmv.png',
     apple: '/PT_logo_rmv.png',
   },
   other: {
