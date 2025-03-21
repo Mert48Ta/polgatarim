@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 const inter = Inter({ 
@@ -58,10 +57,7 @@ export default function RootLayout({
         <link rel="preload" href="/images/p6.jpg" as="image" type="image/jpeg" />
       </head>
       <body className={inter.className}>
-        <Navbar />
-        <main className="min-h-screen">
-          {children}
-        </main>
+        {children}
         <Footer />
       </body>
     </html>
