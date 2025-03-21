@@ -1,52 +1,40 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ 
+  subsets: ['latin'],
+  display: 'swap',
+  preload: true,
+  adjustFontFallback: false
+})
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  themeColor: '#ffffff'
+}
 
 export const metadata: Metadata = {
-  title: 'Polga Tarım',
-  description: 'Modern peyzaj çözümleri ve tarım ürünleri',
-  keywords: 'peyzaj, bahçe tasarımı, villa bahçesi, site peyzajı, park tasarımı',
-  authors: [{ name: 'Polga Tarım' }],
-  openGraph: {
-    title: 'Polga Tarım - Peyzaj ve Bahçe Tasarımı',
-    description: 'Profesyonel peyzaj mimarlığı ve bahçe tasarımı hizmetleri.',
-    images: [
-      {
-        url: '/PT_logo_rmv.png',
-        width: 1200,
-        height: 630,
-        alt: 'Polga Tarım',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Polga Tarım - Peyzaj ve Bahçe Tasarımı',
-    description: 'Profesyonel peyzaj mimarlığı ve bahçe tasarımı hizmetleri.',
-    images: ['/PT_logo_rmv.png'],
-  },
-  viewport: 'width=device-width, initial-scale=1',
-  themeColor: '#ffffff',
+  title: 'Polga Tarım - Kaliteli Tarım Ürünleri',
+  description: 'Polga Tarım, kaliteli tarım ürünleri ve profesyonel çözümler sunan güvenilir bir markadır.',
   manifest: '/manifest.json',
   icons: {
     icon: '/PT_logo_rmv.png',
     apple: '/PT_logo_rmv.png',
+    shortcut: '/PT_logo_rmv.png'
   },
-  other: {
-    'apple-mobile-web-app-capable': 'yes',
-    'apple-mobile-web-app-status-bar-style': 'default',
-    'apple-mobile-web-app-title': 'Polga Tarım',
-    'format-detection': 'telephone=no',
-    'mobile-web-app-capable': 'yes',
-    'application-name': 'Polga Tarım',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'Polga Tarım'
   },
-  alternates: {
-    canonical: 'https://polgatarim.com.tr',
-  },
+  formatDetection: {
+    telephone: false
+  }
 }
 
 export default function RootLayout({
@@ -55,9 +43,26 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="tr">
+    <html lang="tr" className="scroll-smooth">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preload" href="/PT_logo_rmv.png" as="image" type="image/png" />
+        <link rel="preload" href="/polga_banner.jpg" as="image" type="image/jpeg" />
+        <link rel="preload" href="/about_banner.jpg" as="image" type="image/jpeg" />
+        <link rel="preload" href="/images/p1.jpg" as="image" type="image/jpeg" />
+        <link rel="preload" href="/images/p2.jpg" as="image" type="image/jpeg" />
+        <link rel="preload" href="/images/p3.jpg" as="image" type="image/jpeg" />
+        <link rel="preload" href="/images/p4.jpg" as="image" type="image/jpeg" />
+        <link rel="preload" href="/images/p5.jpg" as="image" type="image/jpeg" />
+        <link rel="preload" href="/images/p6.jpg" as="image" type="image/jpeg" />
+      </head>
       <body className={inter.className}>
-        {children}
+        <Navbar />
+        <main className="min-h-screen">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   )

@@ -12,7 +12,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Hakkımızda</h3>
             <p className="text-gray-400">
-              Polga Tasarım, peyzaj mimarlığı ve bahçe tasarımı alanında uzmanlaşmış
+              Polga Tarım, peyzaj mimarlığı ve bahçe tasarımı alanında uzmanlaşmış
               bir firmadır. Müşterilerimize en kaliteli hizmeti sunmak için çalışıyoruz.
             </p>
           </div>
@@ -55,7 +55,7 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li>Adres: Boğaziçi, Tuzla Ovası 1.Sk No:60, 48200 Milas/Muğla</li>
               <li>Telefon: +90 544 403 02 15</li>
-              <li>E-posta: info@polgatasarim.com</li>
+              <li>E-posta: polgatarım@gmail.com </li>
             </ul>
           </div>
 
@@ -101,7 +101,7 @@ export default function Footer() {
 
         {/* Alt Bilgi */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Polga Tasarım. Tüm hakları saklıdır.</p>
+          <p>&copy; {new Date().getFullYear()} Polga Tarım. Tüm hakları saklıdır.</p>
         </div>
       </div>
     </footer>

@@ -1,26 +1,16 @@
 {
   "name": "Polga Tarım",
-  "short_name": "Polga",
-  "description": "Modern peyzaj çözümleri ve tarım ürünleri",
+  "short_name": "Polga Tarım",
+  "description": "Kaliteli tarım ürünleri ve profesyonel çözümler",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#4CAF50",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "/PT_logo_rmv.png",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "192x192",
       "type": "image/png"
-    },
-    {
-      "src": "/PT_logo_rmv.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "/PT_logo_rmv.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ]
 } 

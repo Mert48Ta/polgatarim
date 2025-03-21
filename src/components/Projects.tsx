@@ -3,53 +3,42 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import { FaHouse, FaCity, FaTree } from 'react-icons/fa6'
 
-// NOT: Aşağıdaki kategoriler örnek verilerdir. İstediğiniz gibi düzenleyebilirsiniz.
 const categories = [
   'Tümü',
-  'Villa Bahçeleri',
-  'Site Peyzajı',
-  'Park ve Rekreasyon',
+  'Villa Bahçeleri'
 ]
 
-// NOT: Aşağıdaki projeler örnek verilerdir. İstediğiniz gibi düzenleyebilirsiniz.
 const projects = [
   {
     title: 'Modern Villa Bahçesi',
     category: 'Villa Bahçeleri',
     image: '/images/p1.jpg',
-    // Detaylar: 'Lokasyon: İstanbul, Alan: 500m², Süre: 2 ay'
   },
   {
-    title: 'Yeşil Site Projesi',
-    category: 'Site Peyzajı',
+    title: 'Lüks Villa Bahçesi',
+    category: 'Villa Bahçeleri',
     image: '/images/p2.jpg',
-    // Detaylar: 'Lokasyon: Ankara, Alan: 2000m², Süre: 6 ay'
   },
   {
-    title: 'Şehir Parkı Düzenlemesi',
-    category: 'Park ve Rekreasyon',
+    title: 'Özel Villa Bahçesi',
+    category: 'Villa Bahçeleri',
     image: '/images/p3.jpg',
-    // Detaylar: 'Lokasyon: Bursa, Alan: 5000m², Süre: 8 ay'
   },
   {
     title: 'Lüks Konut Bahçesi',
     category: 'Villa Bahçeleri',
     image: '/images/p4.jpg',
-    // Detaylar: 'Lokasyon: Bodrum, Alan: 800m², Süre: 3 ay'
   },
   {
-    title: 'Rezidans Peyzaj Projesi',
-    category: 'Site Peyzajı',
+    title: 'Modern Villa Bahçesi',
+    category: 'Villa Bahçeleri',
     image: '/images/p5.jpg',
-    // Detaylar: 'Lokasyon: İstanbul, Alan: 1500m², Süre: 4 ay'
   },
   {
     title: 'Özel Villa Bahçesi',
     category: 'Villa Bahçeleri',
     image: '/images/p6.jpg',
-    // Detaylar: 'Lokasyon: Antalya, Alan: 1200m², Süre: 5 ay'
   },
 ]
 
