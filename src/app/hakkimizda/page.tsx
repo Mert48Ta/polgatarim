@@ -45,9 +45,9 @@ export default function About() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Hikayemiz</h2>
               <p className="text-gray-600 mb-4">
-                2010 yılında kurulan Polga Tasarım, peyzaj mimarlığı ve bahçe tasarımı alanında
-                uzmanlaşmış bir firmadır. Müşterilerimize en kaliteli hizmeti sunmak için
-                sürekli kendimizi geliştiriyor ve yenilikçi çözümler üretiyoruz.
+                Polga Tasarım, müşterilerinin ihtiyaçlarına yönelik yaratıcı ve yapıcı çözümler üreten,
+                peyzaj mimarlığı ve bahçe tasarımı alanında uzmanlaşmış bir firmadır. Müşterilerimize 
+                en kaliteli hizmeti sunmak için sürekli kendimizi geliştiriyor ve yenilikçi çözümler üretiyoruz.
               </p>
               <p className="text-gray-600">
                 Deneyimli ekibimiz ve modern yaklaşımımızla, her projeye özgün bir dokunuş

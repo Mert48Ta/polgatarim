@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Arka plan görüntüsü */}
       <div className="absolute inset-0">
         <Image
-          src="/polga_banner.jpg"
+          src="/polga_banner.png"
           alt="Polga Tarım Banner"
           fill
           className="object-cover"
