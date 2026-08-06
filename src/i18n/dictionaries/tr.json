@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "title": "Polga Tarım - Kaliteli Tarım Ürünleri",
+    "description": "Polga Tarım, kaliteli tarım ürünleri ve profesyonel çözümler sunan güvenilir bir markadır."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "projects": "Projeler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "logoAlt": "Polga Tarım Logo"
+  },
+  "hero": {
+    "title": "Modern Peyzaj Çözümleri ile Yaşam Alanlarınızı Dönüştürün",
+    "subtitle": "Profesyonel ekibimiz ve yaratıcı tasarımlarımızla hayalinizdeki bahçeyi gerçeğe dönüştürüyoruz.",
+    "ctaProjects": "Projelerimiz",
+    "ctaContact": "İletişime Geçin",
+    "bannerAlt": "Polga Tarım Banner"
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Profesyonel ekibimizle modern peyzaj çözümleri sunuyoruz",
+    "items": [
+      { "title": "Peyzaj Tasarımı", "description": "Modern ve fonksiyonel bahçe tasarımları" },
+      { "title": "Sulama Sistemleri", "description": "Otomatik sulama sistemi kurulumu ve bakımı" },
+      { "title": "Proje Planlama", "description": "3D görselleştirme ile detaylı proje planlaması" },
+      { "title": "Bitki Satışı", "description": "Geniş bitki çeşitleri ve toptan satış" },
+      { "title": "Bakım Hizmetleri", "description": "Düzenli bahçe bakımı ve peyzaj yenileme" },
+      { "title": "Gübre", "description": "Organik ve kimyasal gübre çeşitleri" },
+      { "title": "Tohum", "description": "Kaliteli ve sertifikalı tohum çeşitleri" },
+      { "title": "Makine", "description": "Modern tarım ve bahçe makineleri" },
+      { "title": "Bitki", "description": "Geniş bitki ve fide çeşitleri" }
+    ],
+    "stats": [
+      { "number": "250+", "label": "Tamamlanan Proje" },
+      { "number": "15+", "label": "Uzman Ekip" },
+      { "number": "10+", "label": "Yıllık Deneyim" },
+      { "number": "98%", "label": "Müşteri Memnuniyeti" }
+    ]
+  },
+  "projects": {
+    "title": "Projelerimiz",
+    "subtitle": "Tamamladığımız bazı projelerimizi inceleyebilirsiniz",
+    "categories": {
+      "all": "Tümü",
+      "villaGardens": "Villa Bahçeleri"
+    },
+    "items": [
+      { "title": "Modern Villa Bahçesi", "categoryKey": "villaGardens" },
+      { "title": "Lüks Villa Bahçesi", "categoryKey": "villaGardens" },
+      { "title": "Özel Villa Bahçesi", "categoryKey": "villaGardens" },
+      { "title": "Lüks Konut Bahçesi", "categoryKey": "villaGardens" },
+      { "title": "Modern Villa Bahçesi", "categoryKey": "villaGardens" },
+      { "title": "Özel Villa Bahçesi", "categoryKey": "villaGardens" }
+    ]
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Bizimle iletişime geçin, projenizi birlikte hayata geçirelim",
+    "formTitle": "Bize Ulaşın",
+    "name": "Adınız Soyadınız",
+    "email": "E-posta Adresiniz",
+    "message": "Mesajınız",
+    "submit": "Gönder",
+    "addressLabel": "Adres",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-posta",
+    "hoursLabel": "Çalışma Saatleri",
+    "address": "Boğaziçi, Tuzla Ovası 1.Sk No:60, 48200 Milas/Muğla",
+    "phone": "+90 544 403 02 15",
+    "emailValue": "info@polgatarim.com",
+    "workingHours": "Pazartesi - Cumartesi: 09:00 - 18:00"
+  },
+  "footer": {
+    "aboutTitle": "Hakkımızda",
+    "aboutText": "Polga Tarım, peyzaj mimarlığı ve bahçe tasarımı alanında uzmanlaşmış bir firmadır. Müşterilerimize en kaliteli hizmeti sunmak için çalışıyoruz.",
+    "quickLinks": "Hızlı Linkler",
+    "contactTitle": "İletişim",
+    "socialTitle": "Sosyal Medya",
+    "address": "Adres: Boğaziçi, Tuzla Ovası 1.Sk No:60, 48200 Milas/Muğla",
+    "phone": "Telefon: +90 544 403 02 15",
+    "email": "E-posta: polgatarım@gmail.com",
+    "copyright": "Polga Tarım. Tüm hakları saklıdır."
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "storyTitle": "Hikayemiz",
+    "storyP1": "Polga Tasarım, müşterilerinin ihtiyaçlarına yönelik yaratıcı ve yapıcı çözümler üreten, peyzaj mimarlığı ve bahçe tasarımı alanında uzmanlaşmış bir firmadır. Müşterilerimize en kaliteli hizmeti sunmak için sürekli kendimizi geliştiriyor ve yenilikçi çözümler üretiyoruz.",
+    "storyP2": "Deneyimli ekibimiz ve modern yaklaşımımızla, her projeye özgün bir dokunuş katıyor ve müşterilerimizin hayallerini gerçeğe dönüştürüyoruz.",
+    "missionTitle": "Misyonumuz",
+    "missionText": "Doğayla uyumlu, sürdürülebilir ve estetik peyzaj tasarımları oluşturarak, yaşam alanlarını daha güzel ve kullanışlı hale getirmek.",
+    "visionTitle": "Vizyonumuz",
+    "visionText": "Türkiye'nin önde gelen peyzaj mimarlığı firmalarından biri olarak, sektörde standartları belirleyen ve yenilikçi çözümler sunan bir marka olmak.",
+    "valuesTitle": "Değerlerimiz",
+    "values": [
+      { "title": "Kalite", "description": "Her projede en yüksek kalite standartlarını hedefliyoruz." },
+      { "title": "Sürdürülebilirlik", "description": "Çevre dostu ve sürdürülebilir çözümler üretiyoruz." },
+      { "title": "Müşteri Memnuniyeti", "description": "Müşterilerimizin beklentilerini aşmak için çalışıyoruz." }
+    ]
+  },
+  "whatsapp": {
+    "message": "Merhaba, bilgi almak istiyorum.",
+    "ariaLabel": "WhatsApp ile iletişime geçin"
+  },
+  "langSwitcher": {
+    "label": "Dil"
+  }
+}

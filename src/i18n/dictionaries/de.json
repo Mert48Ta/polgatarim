@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "title": "Polga Tarım - Qualitativ hochwertige Agrarprodukte",
+    "description": "Polga Tarım ist eine vertrauenswürdige Marke für qualitativ hochwertige Agrarprodukte und professionelle Lösungen."
+  },
+  "nav": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "projects": "Projekte",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "logoAlt": "Polga Tarım Logo"
+  },
+  "hero": {
+    "title": "Verwandeln Sie Ihre Lebensräume mit modernen Landschaftslösungen",
+    "subtitle": "Mit unserem professionellen Team und kreativen Designs machen wir Ihren Traumgarten wahr.",
+    "ctaProjects": "Unsere Projekte",
+    "ctaContact": "Kontakt aufnehmen",
+    "bannerAlt": "Polga Tarım Banner"
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Wir bieten moderne Landschaftslösungen mit unserem professionellen Team",
+    "items": [
+      { "title": "Landschaftsgestaltung", "description": "Moderne und funktionale Gartengestaltung" },
+      { "title": "Bewässerungssysteme", "description": "Installation und Wartung automatischer Bewässerungssysteme" },
+      { "title": "Projektplanung", "description": "Detaillierte Projektplanung mit 3D-Visualisierung" },
+      { "title": "Pflanzenverkauf", "description": "Große Pflanzenvielfalt und Großhandelsverkauf" },
+      { "title": "Pflegedienste", "description": "Regelmäßige Gartenpflege und Landschaftserneuerung" },
+      { "title": "Dünger", "description": "Organische und chemische Düngersorten" },
+      { "title": "Saatgut", "description": "Qualitativ hochwertige und zertifizierte Saatgutsorten" },
+      { "title": "Maschinen", "description": "Moderne Land- und Gartenmaschinen" },
+      { "title": "Pflanzen", "description": "Große Auswahl an Pflanzen und Setzlingen" }
+    ],
+    "stats": [
+      { "number": "250+", "label": "Abgeschlossene Projekte" },
+      { "number": "15+", "label": "Expertenteam" },
+      { "number": "10+", "label": "Jahre Erfahrung" },
+      { "number": "98%", "label": "Kundenzufriedenheit" }
+    ]
+  },
+  "projects": {
+    "title": "Unsere Projekte",
+    "subtitle": "Entdecken Sie einige unserer abgeschlossenen Projekte",
+    "categories": {
+      "all": "Alle",
+      "villaGardens": "Villengärten"
+    },
+    "items": [
+      { "title": "Moderner Villengarten", "categoryKey": "villaGardens" },
+      { "title": "Luxus-Villengarten", "categoryKey": "villaGardens" },
+      { "title": "Privater Villengarten", "categoryKey": "villaGardens" },
+      { "title": "Luxus-Wohnungsgarten", "categoryKey": "villaGardens" },
+      { "title": "Moderner Villengarten", "categoryKey": "villaGardens" },
+      { "title": "Privater Villengarten", "categoryKey": "villaGardens" }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Nehmen Sie Kontakt mit uns auf und lassen Sie uns Ihr Projekt gemeinsam verwirklichen",
+    "formTitle": "Schreiben Sie uns",
+    "name": "Vor- und Nachname",
+    "email": "E-Mail-Adresse",
+    "message": "Ihre Nachricht",
+    "submit": "Senden",
+    "addressLabel": "Adresse",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-Mail",
+    "hoursLabel": "Öffnungszeiten",
+    "address": "Boğaziçi, Tuzla Ovası 1.Sk No:60, 48200 Milas/Muğla",
+    "phone": "+90 544 403 02 15",
+    "emailValue": "info@polgatarim.com",
+    "workingHours": "Montag - Samstag: 09:00 - 18:00"
+  },
+  "footer": {
+    "aboutTitle": "Über uns",
+    "aboutText": "Polga Tarım ist auf Landschaftsarchitektur und Gartengestaltung spezialisiert. Wir arbeiten daran, unseren Kunden höchste Servicequalität zu bieten.",
+    "quickLinks": "Schnelllinks",
+    "contactTitle": "Kontakt",
+    "socialTitle": "Soziale Medien",
+    "address": "Adresse: Boğaziçi, Tuzla Ovası 1.Sk No:60, 48200 Milas/Muğla",
+    "phone": "Telefon: +90 544 403 02 15",
+    "email": "E-Mail: polgatarım@gmail.com",
+    "copyright": "Polga Tarım. Alle Rechte vorbehalten."
+  },
+  "about": {
+    "title": "Über uns",
+    "storyTitle": "Unsere Geschichte",
+    "storyP1": "Polga Design ist ein auf Landschaftsarchitektur und Gartengestaltung spezialisiertes Unternehmen, das kreative und konstruktive Lösungen für die Bedürfnisse seiner Kunden entwickelt. Wir verbessern uns kontinuierlich und bieten innovative Lösungen für höchste Servicequalität.",
+    "storyP2": "Mit unserem erfahrenen Team und modernen Ansatz verleihen wir jedem Projekt eine einzigartige Note und machen die Träume unserer Kunden wahr.",
+    "missionTitle": "Unsere Mission",
+    "missionText": "Durch naturverträgliche, nachhaltige und ästhetische Landschaftsgestaltung Lebensräume schöner und funktionaler zu machen.",
+    "visionTitle": "Unsere Vision",
+    "visionText": "Als eines der führenden Landschaftsarchitekturbüros der Türkei Standards in der Branche zu setzen und innovative Lösungen anzubieten.",
+    "valuesTitle": "Unsere Werte",
+    "values": [
+      { "title": "Qualität", "description": "Wir streben in jedem Projekt die höchsten Qualitätsstandards an." },
+      { "title": "Nachhaltigkeit", "description": "Wir entwickeln umweltfreundliche und nachhaltige Lösungen." },
+      { "title": "Kundenzufriedenheit", "description": "Wir arbeiten daran, die Erwartungen unserer Kunden zu übertreffen." }
+    ]
+  },
+  "whatsapp": {
+    "message": "Hallo, ich möchte Informationen erhalten.",
+    "ariaLabel": "Kontakt per WhatsApp"
+  },
+  "langSwitcher": {
+    "label": "Sprache"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "title": "Polga Tarım - Quality Agricultural Products",
+    "description": "Polga Tarım is a trusted brand offering quality agricultural products and professional solutions."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "logoAlt": "Polga Tarım Logo"
+  },
+  "hero": {
+    "title": "Transform Your Living Spaces with Modern Landscape Solutions",
+    "subtitle": "With our professional team and creative designs, we turn your dream garden into reality.",
+    "ctaProjects": "Our Projects",
+    "ctaContact": "Contact Us",
+    "bannerAlt": "Polga Tarım Banner"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "We deliver modern landscape solutions with our professional team",
+    "items": [
+      { "title": "Landscape Design", "description": "Modern and functional garden designs" },
+      { "title": "Irrigation Systems", "description": "Automatic irrigation system installation and maintenance" },
+      { "title": "Project Planning", "description": "Detailed project planning with 3D visualization" },
+      { "title": "Plant Sales", "description": "Wide plant varieties and wholesale sales" },
+      { "title": "Maintenance Services", "description": "Regular garden care and landscape renewal" },
+      { "title": "Fertilizer", "description": "Organic and chemical fertilizer varieties" },
+      { "title": "Seeds", "description": "Quality and certified seed varieties" },
+      { "title": "Machinery", "description": "Modern agricultural and garden machinery" },
+      { "title": "Plants", "description": "Wide plant and seedling varieties" }
+    ],
+    "stats": [
+      { "number": "250+", "label": "Completed Projects" },
+      { "number": "15+", "label": "Expert Team" },
+      { "number": "10+", "label": "Years of Experience" },
+      { "number": "98%", "label": "Customer Satisfaction" }
+    ]
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Explore some of the projects we have completed",
+    "categories": {
+      "all": "All",
+      "villaGardens": "Villa Gardens"
+    },
+    "items": [
+      { "title": "Modern Villa Garden", "categoryKey": "villaGardens" },
+      { "title": "Luxury Villa Garden", "categoryKey": "villaGardens" },
+      { "title": "Private Villa Garden", "categoryKey": "villaGardens" },
+      { "title": "Luxury Residence Garden", "categoryKey": "villaGardens" },
+      { "title": "Modern Villa Garden", "categoryKey": "villaGardens" },
+      { "title": "Private Villa Garden", "categoryKey": "villaGardens" }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us and let's bring your project to life together",
+    "formTitle": "Reach Us",
+    "name": "Full Name",
+    "email": "Email Address",
+    "message": "Your Message",
+    "submit": "Send",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "hoursLabel": "Working Hours",
+    "address": "Boğaziçi, Tuzla Ovası 1.Sk No:60, 48200 Milas/Muğla",
+    "phone": "+90 544 403 02 15",
+    "emailValue": "info@polgatarim.com",
+    "workingHours": "Monday - Saturday: 09:00 - 18:00"
+  },
+  "footer": {
+    "aboutTitle": "About Us",
+    "aboutText": "Polga Tarım specializes in landscape architecture and garden design. We work to deliver the highest quality service to our customers.",
+    "quickLinks": "Quick Links",
+    "contactTitle": "Contact",
+    "socialTitle": "Social Media",
+    "address": "Address: Boğaziçi, Tuzla Ovası 1.Sk No:60, 48200 Milas/Muğla",
+    "phone": "Phone: +90 544 403 02 15",
+    "email": "Email: polgatarım@gmail.com",
+    "copyright": "Polga Tarım. All rights reserved."
+  },
+  "about": {
+    "title": "About Us",
+    "storyTitle": "Our Story",
+    "storyP1": "Polga Design is a firm specialized in landscape architecture and garden design, creating creative and constructive solutions tailored to customer needs. We continuously improve ourselves and deliver innovative solutions to provide the highest quality service.",
+    "storyP2": "With our experienced team and modern approach, we add a unique touch to every project and turn our customers' dreams into reality.",
+    "missionTitle": "Our Mission",
+    "missionText": "To create nature-friendly, sustainable and aesthetic landscape designs that make living spaces more beautiful and functional.",
+    "visionTitle": "Our Vision",
+    "visionText": "To become one of Turkey's leading landscape architecture firms, setting standards in the industry and offering innovative solutions.",
+    "valuesTitle": "Our Values",
+    "values": [
+      { "title": "Quality", "description": "We aim for the highest quality standards in every project." },
+      { "title": "Sustainability", "description": "We create eco-friendly and sustainable solutions." },
+      { "title": "Customer Satisfaction", "description": "We work to exceed our customers' expectations." }
+    ]
+  },
+  "whatsapp": {
+    "message": "Hello, I would like to get information.",
+    "ariaLabel": "Contact via WhatsApp"
+  },
+  "langSwitcher": {
+    "label": "Language"
+  }
+}
